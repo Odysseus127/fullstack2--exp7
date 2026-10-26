@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "security.jwt.secret-base64",
+      "type": "java.lang.String",
+      "description": "Base64-encoded JWT signing key."
+    },
+    {
+      "name": "security.jwt.access-token-ttl",
+      "type": "java.time.Duration",
+      "description": "Access-token lifetime, for example PT15M."
+    },
+    {
+      "name": "security.encryption.aes-key-base64",
+      "type": "java.lang.String",
+      "description": "Base64-encoded AES encryption key."
+    },
+    {
+      "name": "security.refresh-token.ttl-days",
+      "type": "java.lang.Long",
+      "description": "Refresh-token lifetime in days."
+    }
+  ]
+}
